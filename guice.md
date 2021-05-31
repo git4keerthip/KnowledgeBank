@@ -30,11 +30,15 @@ As bindings are defined in Binding Module, Guice uses them whenever it needs to 
 	@ProvidedBy annotation	          @ProvidedBy annotation tells the guice about the provider of implementation class. 
 																		No binding is required in Binding Module in such a case.
 
-	bind(Communicator.class).annotatedWith(Names.named("AnotherCommunicator"))
-		.to(Communicator.class).in(Scopes.SINGLETON);
+
   
 The in(Scopes.SINGLETON) specifies that any Communicator field with the @Named(“AnotherCommunicator”) 
 will get a singleton injected. This singleton is lazily initiated by default.
+
+
+	bind(Communicator.class).annotatedWith(Names.named("AnotherCommunicator"))
+		.to(Communicator.class).in(Scopes.SINGLETON);
+		
 
 Guice provides a way to create bindings with complex objects using @Provides annotation.
 
