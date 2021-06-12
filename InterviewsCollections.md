@@ -1,6 +1,6 @@
 # Interview Questions Collections
 
-## Tech Mahindra
+## TM
 
 - What is a class loader?
 
@@ -27,3 +27,11 @@
 - difference between @component @restcontroller @controller
 - Synchronized in Java
 - Can we use super() and this() at a time. ->no , ll get compile time error as both has to first statement in java.
+- Can class be static in java
+  YES, we can have static class in java. In java, we have static instance variables as well as static methods and also static block. 
+  Classes can also be made static in Java. we can’t make Top-level (outer) class static. Only nested classes can be static. 
+  
+- Volatile Keyword in java 
+  Volatile keyword is used to modify the value of a variable by different threads. It is also used to make classes thread safe. 
+  It means that multiple threads can use a method and instance of the classes at the same time without any problem.
+  <additional> volatile satisifies visibility but not mutual exclusion ,but synchronized satisfies both.
