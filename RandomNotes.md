@@ -4,7 +4,8 @@
  If variable or method is not changed for every new object creation those cannot be stored in a normal heap, 
  they are stored in a special area called permanent generation(PermGen).
  The main difference is that the heap is the auto growing space, with RAM memory as its constraints, 
- whereas this PermGen has a fixed space allocation, and this is shared with all the instances.From java8 its called **metaspace**
+ whereas this PermGen has a fixed space allocation, and this is shared with all the instances.From java8 its called **metaspace** and 
+ from java 8 metaSpace is not    part of heapmemory
 
 - Concurrent HashMap :- The underlined data structure for ConcurrentHashMap is Hashtable.
 ConcurrentHashMap class is thread-safe i.e. multiple threads can operate on a single object without any complications.
@@ -15,4 +16,4 @@ In ConcurrentHashMap, at a time any number of threads can perform retrieval oper
 Inserting null objects is not possible in ConcurrentHashMap as a key or value.
 
 - Producer Consumer Problem
-- 
+-  java.lang.OutOfMemoryError: Java heap space  and   java.lang.OutOfMemoryError: GC Overhead limit exceeded
