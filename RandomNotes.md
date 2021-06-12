@@ -4,4 +4,4 @@
  If variable or method is not changed for every new object creation those cannot be stored in a normal heap, 
  they are stored in a special area called permanent generation(PermGen).
  The main difference is that the heap is the auto growing space, with RAM memory as its constraints, 
- whereas this PermGen has a fixed space allocation, and this is shared with all the instances.From java8 its called ** metaspace **
+ whereas this PermGen has a fixed space allocation, and this is shared with all the instances.From java8 its called **metaspace**
