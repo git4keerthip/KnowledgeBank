@@ -17,3 +17,17 @@ Inserting null objects is not possible in ConcurrentHashMap as a key or value.
 
 - Producer Consumer Problem
 -  java.lang.OutOfMemoryError: Java heap space  and   java.lang.OutOfMemoryError: GC Overhead limit exceeded
+-  Singelton - only one isntance of class should exists.
+  To be safe from reflection check if instance is not null and return same insstance if so.
+  ````
+  class Singleton{
+   private Singleton(){}
+   public static Singleton getInstance(){
+     return SingletonHolder.INSTANCE;
+     }
+    private static class SingletonHolder {
+       static final Singleton INSTANCE = new Singleton();
+    }
+  }
+  ````
+  
