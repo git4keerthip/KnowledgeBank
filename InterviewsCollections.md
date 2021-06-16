@@ -18,7 +18,7 @@
   
 - Can we write try catch in constructor
 - Object class methods
-- Can List<String> be passed to List<Object>
+- Can List< String > be passed to List< Object >
 - Difference between List and Set
 - Will Java Interface has variables -> yes they are static and final
 - What are generics
@@ -35,3 +35,21 @@
   Volatile keyword is used to modify the value of a variable by different threads. It is also used to make classes thread safe. 
   It means that multiple threads can use a method and instance of the classes at the same time without any problem.
   <additional> volatile satisifies visibility but not mutual exclusion ,but synchronized satisfies both.
+    
+ ## >
+- What is composition and example
+- New feature in Java 8 Interface , how it is useful
+- Inheritance usefulness for developers
+- what is Spring IOC container
+- Spring Bean life cycle
+- Component scan in Spring
+- Print permutations of a string
+- Various status codes of Rest call , 100 , 200 , 300 , 400 , 500 series
+- HTTP status codes 
+  ````
+  1xx: Informational – Communicates transfer protocol-level information.
+  2xx: Success – Indicates that the client’s request was accepted successfully.
+  3xx: Redirection – Indicates that the client must take some additional action in order to complete their request.
+  4xx: Client Error – This category of error status codes points the finger at clients.
+  5xx: Server Error – The server takes responsibility for these error status codes.
+  ````
