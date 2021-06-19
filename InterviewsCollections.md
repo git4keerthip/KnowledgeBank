@@ -53,3 +53,4 @@
   4xx: Client Error – This category of error status codes points the finger at clients.
   5xx: Server Error – The server takes responsibility for these error status codes.
   ````
+- Stateless and stateful differences
