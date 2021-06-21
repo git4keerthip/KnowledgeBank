@@ -31,4 +31,15 @@ Inserting null objects is not possible in ConcurrentHashMap as a key or value.
     }
   }
   ````
-  
+ - Garbage collection
+   GC works in steps of mark , sweep/delete and compacting.GC clears memory in heap.
+   
+   Static variables and metadata of class are stored in permGen or metaspace.
+   
+   young generation will have eden , surviour 1 , surviour2 blocks . Reason for two surviours is to reduce compacting
+   old generation.
+   Types of GC - 1.serial.   2. parallel (prefered for low latency )      3. concurrent (prefered for throughput )
+   
+   G1GC is efficient one till now. which is garbage first garbagr collection.its combination of serial and parallel.It divides heap to many regions of new and old based on which has major garbage. it takes low pause for compactating. 
+   
+   Mostly GC needs to take pause for mark and sweep .
