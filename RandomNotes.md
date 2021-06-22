@@ -79,3 +79,6 @@ List stringList = List.of("a", "b", "c");
   
 - What happens if we invoke run method without calling the start method for a thread instance?
   If we invoke run method without calling the start method for a thread instance, the code in run() method wil not be executed by a new thread but it will be executed by the existing thread only.
+
+- Can you start a thread twice? : NO , it will give illegal state exception
+- Why wait, notify and notifyAll are not inside thread class? : Java provides lock at object level not at thread level. Every object has lock, which is acquired by thread. Now if thread needs to wait for certain lock it make sense to call wait() on that object rather than on that thread.
