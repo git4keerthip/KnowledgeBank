@@ -42,4 +42,40 @@ Inserting null objects is not possible in ConcurrentHashMap as a key or value.
    
    G1GC is efficient one till now. which is garbage first garbagr collection.its combination of serial and parallel.It divides heap to many regions of new and old based on which has major garbage. it takes low pause for compactating. 
    
-   Mostly GC needs to take pause for mark and sweep .
+   Mostly GC needs to take pause for mark and sweep.
+   
+ - Covarient return types
+   Covariant return, means that when one overrides a method, the return type of the overriding method is allowed to be a subtype of the overridden method's return type.
+   Below gives compile time error at line 2 as String is not subtype of Interger.
+   ```
+   public  class Sample {
+    public Integer m1(){
+        return null;
+    }
+    }
+    class Stest extends Sample{
+    public String m1(){ //line 2
+      return null;
+    }
+    }
+ - Immutable collections
+   An object is considered immutable if its state cannot change after it is constructed. After you create an immutable instance of a collection, it holds the same data as long as a reference to it exists.
+
+```
+In JDK 8:
+
+List<String> stringList = Arrays.asList("a", "b", "c");
+stringList = Collections.unmodifiableList(stringList);
+
+In JDK 9:
+
+List stringList = List.of("a", "b", "c");
+```
+- What is starvation?
+
+ Starvation is a situation when some threads acquired the shared resources for long time and therefore other threads are not able to access those resources and not able to do anything further.
+  In Java, Starvation can be caused by inappropriate allocation of thread priorities.
+  A thread with low priority can be starved by the threads of higher priority if the higher priority threads do not release shared resources time to time.
+  
+- What happens if we invoke run method without calling the start method for a thread instance?
+  If we invoke run method without calling the start method for a thread instance, the code in run() method wil not be executed by a new thread but it will be executed by the existing thread only.
