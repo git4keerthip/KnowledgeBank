@@ -54,3 +54,30 @@
   5xx: Server Error – The server takes responsibility for these error status codes.
   ````
 - Stateless and stateful differences
+  
+## MS
+- exceptions from child ovveriding methods when parent ovveriden method has no exception thrown
+- parent class methos has void return type, child class ovveriding method has int return type
+- parent class(A) static method(m1) is overiden in child class (B) :- A a = new B() ; a.m1(); will call parent classmethod
+- Different between abstract and interface
+- Can a abstract class have constructor 
+- advantages of default methods in interface.
+- when do we use abstract class and when we use interfaces.
+- Disadvantages of having a static varaible, where do this static variables will be stored
+- scenrios when hashcode is not overiden and equals returns always true,insert 10 elements in hashset , whats the size.
+- scenario when hashcode returns always 1 and equals returns true , insert 10 elements in hashset  what is size.
+- Volatile keyword
+- Difference between failfast and failsafe
+- Difference between hashtable and hashmap, why hashtable wont allow null.
+- internal working of concurrentHashMap, some questions on this.
+- Maintain insertion order and a store key value pair , which data structure.
+- How retirval happens in hashMap , whats new change in java8 - redblack tree and how it improves retrieval.
+- calling start two times on same thread. few scenarios here, by calling run() without run()ovverding . calling start() with ovverring run()
+- class extends thread butdidnt ovveride run() :- programs runs as usual , no compile error
+- Left join in SQL
+- sort array with 0's and 1's in O(n).
+- why serialUid is used , what happens if its not declared.
+- Write immutable class
+- Future in threads.
+- Hacker rank - 2 Sum , Longest increasig sub array 
+
