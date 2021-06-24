@@ -82,3 +82,7 @@ List stringList = List.of("a", "b", "c");
 
 - Can you start a thread twice? : NO , it will give illegal state exception
 - Why wait, notify and notifyAll are not inside thread class? : Java provides lock at object level not at thread level. Every object has lock, which is acquired by thread. Now if thread needs to wait for certain lock it make sense to call wait() on that object rather than on that thread.
+- Blocking Queue 
+  A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
+  BlockingQueue implementations are thread-safe.
+  A BlockingQueue does not accept null elements.. All methods of BlockingQueue are atomic in nature and use internal locks.
