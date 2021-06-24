@@ -84,12 +84,13 @@
 - sort array with 0's and 1's in O(n).
 - why serialUid is used , what happens if its not declared.
   
-  When an object of a class is first serialized, a class descriptor containing among other things the class name and serial version UID is written to the stream.       
-  When this is deserialized, the JVM checks if the serial version UID read from the stream is the same as loaded class. If they're not, it doesn't      
-  even try to deserialize the object, because it knows the classes are incompatible. JVM will create internal a serialUID and this is compiler dependent and may   
-  give a Illegalcast exception.
+  - When an object of a class is first serialized, a class descriptor containing among other things the class name and serial version UID is written to the stream.       
+  When this is deserialized, the JVM checks if the serial version UID read from the stream is the same as loaded class. 
+  If they're not, it doesn't. even try to deserialize the object, because it knows the classes are incompatible. 
+  JVM will create internal a serialUID and this is compiler dependent and may give a Illegalcast exception.
   - Serial versions of different classes are independent and do not interfere each other.serialVersionUID is needed to remember versions of the class. It is not  
     necessary for two classes to have unique values.
+  
 - Write immutable class
 - Future in threads.
 - Hacker rank - 2 Sum , Longest increasig sub array 
