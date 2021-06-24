@@ -60,15 +60,21 @@
 - parent class methos has void return type, child class ovveriding method has int return type
 - parent class(A) static method(m1) is overiden in child class (B) :- A a = new B() ; a.m1(); will call parent classmethod
 - Different between abstract and interface
-- Can a abstract class have constructor 
+- Can a abstract class have constructor , yes but it cant be instantiated. Abstract class constructor will be called from child class.
 - advantages of default methods in interface.
 - when do we use abstract class and when we use interfaces.
 - Disadvantages of having a static varaible, where do this static variables will be stored
+    Static variables are similar to global variables,below are reason to avoid static
+    - Because there's exactly one instance per JVM, 
+    - Static variables are difficult to control access to.  so they can be changed by parts of your program when you don't expect it.
+    - Serialization doesn't work well with static. During deserialization static are not touched at all as they belong to class
 - scenrios when hashcode is not overiden and equals returns always true,insert 10 elements in hashset , whats the size.
 - scenario when hashcode returns always 1 and equals returns true , insert 10 elements in hashset  what is size.
 - Volatile keyword
 - Difference between failfast and failsafe
 - Difference between hashtable and hashmap, why hashtable wont allow null.
+  - HashTable calls key.hashcode() in put() passing null withh throw NPE , as null is not object
+  - HashMap checks for null and return 0 as hash if not null it calculates hashcode().
 - internal working of concurrentHashMap, some questions on this.
 - Maintain insertion order and a store key value pair , which data structure.
 - How retirval happens in hashMap , whats new change in java8 - redblack tree and how it improves retrieval.
@@ -77,6 +83,12 @@
 - Left join in SQL
 - sort array with 0's and 1's in O(n).
 - why serialUid is used , what happens if its not declared.
+  When an object of a class is first serialized, a class descriptor containing among other things the class name and serial version UID is written to the stream.       
+  When this is deserialized, the JVM checks if the serial version UID read from the stream is the same as loaded class. If they're not, it doesn't      
+  even try to deserialize the object, because it knows the classes are incompatible. JVM will create internal a serialUID and this is compiler dependent and may   
+  give a Illegalcast exception.
+  - Serial versions of different classes are independent and do not interfere each other.serialVersionUID is needed to remember versions of the class. It is not  
+    necessary for two classes to have unique values.
 - Write immutable class
 - Future in threads.
 - Hacker rank - 2 Sum , Longest increasig sub array 
