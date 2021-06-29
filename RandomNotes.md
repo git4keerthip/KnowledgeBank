@@ -86,3 +86,6 @@ List stringList = List.of("a", "b", "c");
   A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
   BlockingQueue implementations are thread-safe.
   A BlockingQueue does not accept null elements.. All methods of BlockingQueue are atomic in nature and use internal locks.
+- What is a factory method 
+   factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
+- 
