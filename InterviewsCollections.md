@@ -94,4 +94,7 @@
 - Write immutable class
 - Future in threads.
 - Hacker rank - 2 Sum , Longest increasig sub array 
+## WM
+- Difference between normal java and map reduce.
+- Clone a linked list with random and next pointers.
 
