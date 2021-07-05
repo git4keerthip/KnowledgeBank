@@ -13,10 +13,21 @@
 - Transient , volatile , Functional Interface 
 - Example of Java8 Functional Interface :- Consumer, Supplier,Predicate.
 - Difference between String Buffer , String Builder , String
+- How HashMap works internally what if two keys have same hashcode
 
 ## CMP
-- Coding probleam to count domains and sub domains in a string array
+- Coding problems to count domains and sub domains in a string array
 
+## OR
+- Class Loader , how to write custom class loader
+- JVM Memory
+- Java 8 features , what is optional
+- Methods in Singly Linked List
+- Why Java doesnt support multiple inheritance
+- Spring bean with two same names
+- Spring Bean Inheritance
+- Spring AOP
+- How to create custom annotations
 
 
 
