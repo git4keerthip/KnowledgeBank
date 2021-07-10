@@ -15,6 +15,7 @@
 - Difference between String Buffer , String Builder , String:- only String buffer is thread safe and has lag performance.
 - How HashMap works internally what if two keys have same hashcode
 - Component scan with multiple packages :- @ComponentScan({"com.my.package.first","com.my.package.second"})
+- Difference between request param and PathVariable -
 
 ## CMP
 - Coding problems to count domains and sub domains in a string array
@@ -29,6 +30,22 @@
 - Spring Bean Definition Inheritance - Having child bean inheriting definition of parent bean definition can save lot of time, these inheritiance can be used as     templating, parent bean definition has to be marked as "abstract = true" 
 - Spring AOP
 - How to create custom annotations
+### OR -round2
+- Bottle with tablets , find drugged bottle puzzle
+- Sum of nums with linked List program
+- what is generalization and specialization
+- When we use abstract class with no abstract methods?
+- Advantages of Lamdba from java 8 , difference between these from anonymous Inner class
+- Traffic signal design
+- Few sortings in employee ArrayList
+- sort by empid in Map<employee,String>
+- sql query for second highest salary
+- Get which deparment has more female employees than male employees Table has id ,departname , gender , employee name 
+- Buider design pattern in detail
+- dynamic and static polymorphism
+- How HDFS is different than normal file system
+- what is name node
+- will hadoop have anything to retireve data from HDFS
 
 
 
