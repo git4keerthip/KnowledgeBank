@@ -19,6 +19,7 @@
 
 ## CMP
 - Coding problems to count domains and sub domains in a string array
+- redo test :- print zero parent and one parent from given [][]input array {(parent1,child1),(parent2,child2)...}
 
 ## OR
 - Class Loader , how to write custom class loader
