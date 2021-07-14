@@ -15,7 +15,7 @@
 - Difference between String Buffer , String Builder , String:- only String buffer is thread safe and has lag performance.
 - How HashMap works internally what if two keys have same hashcode
 - Component scan with multiple packages :- @ComponentScan({"com.my.package.first","com.my.package.second"})
-- Difference between request param and PathVariable- input sent in uri is taken as pathVariable, if its sent in request headers then its taken as request param
+- Difference between request param and PathVariable- data sent directly in form "url/id" is taken as pathVariable, if its sent in query parameters like "url?name=value" then its taken as request param
 
 ## CMP
 - Coding problems to count domains and sub domains in a string array
