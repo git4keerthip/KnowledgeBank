@@ -88,4 +88,6 @@ List stringList = List.of("a", "b", "c");
   A BlockingQueue does not accept null elements.. All methods of BlockingQueue are atomic in nature and use internal locks.
 - What is a factory method 
    factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
-- 
+- Optional class
+  - Container object which may or maynot have value. if present get() will return value and ifpresent() returns true.This have methods to call someother method if not present , throw exception if not present ,filter and map methods.
+  
