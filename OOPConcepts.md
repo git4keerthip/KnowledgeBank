@@ -17,3 +17,5 @@ Dependency: Aggregation implies a relationship where the child can exist indepen
 Type of Relationship: Aggregation relation is “has-a” and composition is “part-of” relation.
 
 Type of association: Composition is a strong Association whereas Aggregation is a weak Association.
+
+- Interface is a way of defining a contract. Abstract classes defines characteristics of an object type, specifying what an object is but in the case of an interface we define a capability and we bond to provide that capability. Abstract class is what a class is and interface is what a class can do.
