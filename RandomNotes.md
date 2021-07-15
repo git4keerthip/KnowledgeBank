@@ -90,4 +90,6 @@ List stringList = List.of("a", "b", "c");
    factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
 - Optional class
   - Container object which may or maynot have value. if present get() will return value and ifpresent() returns true.This have methods to call someother method if not present , throw exception if not present ,filter and map methods.
+  - Optional is final class and not serializable.
+  - General idea for this is ot have return type where we can check if value is present else return default value or throw exception.
   
