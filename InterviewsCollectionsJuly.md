@@ -4,11 +4,11 @@
 - Name of .class file for a Inner class :- outerName$InnerName.class
 - what is a bean factory and Application context  in spring
 - Spring JDBC template and JPA difference
-- AWS platform as service examples - Lambda
-- AWS Load balancer types
-- What is AWS autoscaling
-- What type of website can we host in AWS s3
-- types of AWS EC2 instances - 
+- AWS platform as service examples - EBS
+- AWS Load balancer types - Application Load balancer , Network Load Balancer
+- What is AWS autoscaling - Scale in and Scale Out Instances according to network traffic.
+- What type of website can we host in AWS s3 - Static website
+- types of AWS EC2 instances - General purpose , Memory optimized , compute optimized , Accelerated computing .
 - Spring profiling
 - Transient , volatile , Functional Interface 
 - Example of Java8 Functional Interface :- Consumer, Supplier,Predicate.
@@ -24,7 +24,7 @@
 ## OR
 - Class Loader , how to write custom class loader
 - JVM Memory
-- Java 8 features , what is optional
+- Java 8 features , what is optional - optional is container which may or may not have null value. Its designed as a method return type.
 - Methods in Singly Linked List
 - Why Java doesnt support multiple inheritance
 - Spring bean with two same names
