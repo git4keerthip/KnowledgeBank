@@ -8,7 +8,9 @@
 - AWS Load balancer types - Application Load balancer , Network Load Balancer
 - What is AWS autoscaling - Scale in and Scale Out Instances according to network traffic.
 - What type of website can we host in AWS s3 - Static website
-- types of AWS EC2 instances - General purpose , Memory optimized , compute optimized , Accelerated computing .
+- AWS with similar to docker functionality - Faraget and ECS (both of this will be registered in ECR)
+- types of AWS EC2 instances - General purpose , Memory optimized , compute optimized ,storage optimized , Accelerated computing .
+- Max File Size in S3 - 5TB
 - Spring profiling
 - Transient , volatile , Functional Interface 
 - Example of Java8 Functional Interface :- Consumer, Supplier,Predicate.
@@ -31,12 +33,14 @@
 - Spring Bean Definition Inheritance - Having child bean inheriting definition of parent bean definition can save lot of time, these inheritiance can be used as     templating, parent bean definition has to be marked as "abstract = true" 
 - Spring AOP
 - How to create custom annotations
+- Normalization n1, n2 ,n3
 ### OR -round2
 - Bottle with tablets , find drugged bottle puzzle
 - Sum of nums with linked List program
-- what is generalization and specialization
+- what is generalization and specialization (THis is from E-R Models ignore)
 - When we use abstract class with no abstract methods?
 - Advantages of Lamdba from java 8 , difference between these from anonymous Inner class
+  - Lambda is useful for functional Interfaces only, but AIC can be used to create subclass of  abstract or concrete and implementations for interfaces as well.
 - Traffic signal design
 - Few sortings in employee ArrayList
 - sort by empid in Map<employee,String>
