@@ -32,4 +32,34 @@
 ### S3
 - Max size is 5TB else multi-part upload
 - s3 can host static websites (make bucket public for this website hosting)
-- 
+### ECR
+- Elastic container registrey,private docker resgistry on AWS.
+- We store our docker images so that we can run them on ECS/Fargate
+### ECS
+- Elastic container service , docker containers for AWS
+- We will create and manage EC2 here
+### Fargate
+- Launch Docker containers for AWS
+- We dont need to create EC2 ,Fargate will takescare of that
+- ServerLess offering ,AWS will run EC2 based on cpu and ram specified
+### Lambda
+- Intended for shorter executions, no servers to manage, runs on demand , scaling is automated.
+- Event Driven functions
+### Cloud Formation
+- Infrastructure as code , declarative way of outlining AWS infrastructure. 
+
+### CLoudFront 
+- Global CDN for AWS
+### Rout53
+- Managed DNS
+- Route users to closet deployment with least latency 
+- Types - General Routing policing , Weighted (kinda like Load balancer) Routing, Latancy Routing, Failover ROuting policy.
+### CloudWatch Metrics
+### Virtual Private CLoud 
+-  VPC is partitioned into public and private subnets
+-  Public subnet is connected to internet via internetgateway
+-  NAT gateway is present in public subnet
+-  Private can connect to internet via NAT gateway and NAT gateway is connected to internet gateway.
+-  Each avialiable zone will have VPC
+
+
