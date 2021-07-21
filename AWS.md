@@ -61,5 +61,23 @@
 -  NAT gateway is present in public subnet
 -  Private can connect to internet via NAT gateway and NAT gateway is connected to internet gateway.
 -  Each avialiable zone will have VPC
+### CLoud communication
+- Two ways for applications  can communicate. 1. synchoronous 2.asynchronous using message queue (two applocations will be decoupled).This is event based.
+- AWS has below
+    - SQS (queue model)
+    - SNS (pub/sub model)
+    - kinesis (real time data streaming)
+### SQS (Simple Queue Service)
+- AWS queue model for messaging service
+- Producers pushing messages to SQS and comsumers read those messages and delete them later. 
+- Serverless and its scalable
+- retention within 4 to 14 days
+- No limit to how many messages in queue
+- low latency on publish and receive
+### SNS (Simple Notification Service)
+- One message can be delivered to different receivers
+- SNS can even sent notification to SQS
+- Many event subscribers can listen to SNS topic
+
 
 
