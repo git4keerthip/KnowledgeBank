@@ -74,10 +74,13 @@
 - retention within 4 to 14 days
 - No limit to how many messages in queue
 - low latency on publish and receive
+- SQS is poll based
 ### SNS (Simple Notification Service)
 - One message can be delivered to different receivers
 - SNS can even sent notification to SQS
 - Many event subscribers can listen to SNS topic
+- SNS is pub/sub model, its push based.
+- data wont be persisted, its deleted once comsumer receives it.
 
 
 
