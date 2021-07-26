@@ -51,6 +51,22 @@
 - How HDFS is different than normal file system
 - what is name node
 - will hadoop have anything to retireve data from HDFS
-
-
-
+## HID - round1
+- Design Patterns
+- HashMap working
+- Callable and Runnable difference
+- what is serialization and why is UversionId used
+- Transient keyword
+- Synchronize and volatile
+## HID - round2
+- Association and composition with exmaples
+- Semaphore and counterLatch
+- WHen to use ExecutorService.WaitForTermination()
+- DesignPatterns
+- Spring Boot and SPring Cloud difference
+- AIC and Lambda difference
+- Treeset comparator creation
+- SQL Join query
+- Autoring types and which one is best - constructor autowiring
+- Can we ovveride static methods in sub class - yes but its method hiding
+- SNS and SQS in AWS
