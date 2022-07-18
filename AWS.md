@@ -82,5 +82,10 @@
 - SNS is pub/sub model, its push based.
 - data wont be persisted, its deleted once comsumer receives it.
 
-
+### IAM
+- IAM roles allows policies to be assigned to non-user entity like servers.
+- Secutiry groups control access at network level
+- Create policy --attach to--> IAM role 
+- Create IAM user --> assign IAM role
+- Create group --> assign IAM role to that group
 
