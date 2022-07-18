@@ -32,6 +32,10 @@
 ### S3
 - Max size is 5TB else multi-part upload
 - s3 can host static websites (make bucket public for this website hosting)
+- S3 version can become expensive with multiple copies of files , but this can be managed with Life cycle rule.
+- s3 uses ssl/tls for data encryption in transit
+- sse - server side encryption 
+- s3 uses s3 managed keys (sse-s3 is recommended), s3 KMS (comes with charges) for data encryption at rest
 ### ECR
 - Elastic container registrey,private docker resgistry on AWS.
 - We store our docker images so that we can run them on ECS/Fargate
@@ -88,4 +92,9 @@
 - Create policy --attach to--> IAM role 
 - Create IAM user --> assign IAM role
 - Create group --> assign IAM role to that group
+- IAM is not region specif , its global service like s3.
+
+### KMS
+- KMS is region specific
+- 
 
