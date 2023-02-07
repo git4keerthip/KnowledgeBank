@@ -55,49 +55,47 @@ ECS vs EKS
 
 CIDR -- classlesss inter domain routing 
 
-Storage
+**Storage**
 -----------------
 
-Block storage - Instance store , high through put  , temporary
+- Block storage : - Instance store , high through put  , temporary
                              EBS Volume - Data not lost , remounted 
 
-File storage - EFS for linux , shared file system across multiple EC2 instances
+- File storage : - EFS for linux , shared file system across multiple EC2 instances
                          Fsx for windows
 
-Object storage - s3
+- Object storage : - s3
 
-AWS Database
+**AWS Database**
 -----------------------
 
-Relational -
-Key value - Dynamo DB
-In memory-
-Document
-Wide column
-Graph
-Time series
-Ledger
+- Relational -
+- Key value - Dynamo DB
+- In memory 
+- Document
+- Wide column
+- Graph
+- Time series
+- Ledger
 
 
-Resilient -
-Security-
-Highly -
+**Well architecture infrastructure Pillars**
+---------------------------------------------------------
+- Security
+- Cost optimization
+- Reliability
+	- Recover from failure
+	- Scale to increase availability
+	- Test recovery procedures
+- Performance efficiency
+	- Reduce Latency
+- Operational excellence  
+	- Perform operations with code
+	- Test response for unexpected events
+- Sustainability
+  - Maximize utilization
+  
 
-Well architecture infrastructure Pillars
-
-Security
-Cost optimization
-Reliability
-	•    Recover from failure
-	•    Scale to increase availability
-	•    Test recovery procedures
-Performance efficiency
-	•     Reduce Latency
-Operational excellence  
-	•       perform operations with code
-	•       Test response for unexpected events
-Sustainability
-	•   Maximize utilization
 
 
 
